@@ -31,6 +31,11 @@ public class ExceptionHandlerConfig {
         return new BizHandlerResolver();
     }
 
+    /**
+     * test2 注释
+     * @param resolver
+     * @return
+     */
     @Bean
     @ConditionalOnMissingBean
     public BizAop bizAop(BizHandlerResolver resolver){
