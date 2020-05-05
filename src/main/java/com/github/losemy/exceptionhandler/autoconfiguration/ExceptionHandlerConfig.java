@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * test1 注释
  * @author lose
  * @date 2020-02-20
  **/
@@ -20,6 +21,10 @@ import org.springframework.context.annotation.Configuration;
 @Slf4j
 public class ExceptionHandlerConfig {
 
+    /**
+     * test1 注释
+     * @return
+     */
     @Bean
     @ConditionalOnMissingBean
     public BizHandlerResolver exceptionHandlerResolver(){
